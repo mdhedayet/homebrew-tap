@@ -1,9 +1,9 @@
 cask "scope" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.23"
-  sha256 arm:   "30f24da8a82eaf0f22dd4e2f4feb87b46a21451bee2f419e11c7b8787acd44b1",
-         intel: "2cf14b817ac264fc5f11aae5845f7a7284a5b51f8388108b733da0b54efe2487"
+  version "0.1.24"
+  sha256 arm:   "82cf37463fe986420107ea294c4137b702cb07782f496f1cc18b532786b3dc1c",
+         intel: "94ac867efb3b3bc99253a2f69dc9f1b2ce8c12bd2920dd33f8cb1f94653f71f5"
 
   url "https://github.com/mdhedayet/scope-releases/releases/download/v#{version}/Scope-#{version}-#{arch}.dmg"
   name "Scope"
